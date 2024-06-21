@@ -1,1 +1,0 @@
-# testavcmysql-ts-frontend
