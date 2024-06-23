@@ -31,7 +31,6 @@ const AddTutorial: React.FC = () => {
 
         TutorialDataService.create(data)
             .then((response: any) => {
-                console.log(tutorial);
                 setTutorial({
                     id: response.data.id,
                     name: response.data.name,

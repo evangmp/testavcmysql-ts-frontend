@@ -11,7 +11,7 @@ const get = (id: any) => {
 
 const create = (data: ITutorialData) => {
     return http.post<ITutorialData>("/clients", data);
-    // {name:data.name, email:data.email} data
+    // {name:data.name, discipline:data.discipline} data
 };
 
 const update = (id: any, data: ITutorialData) => {

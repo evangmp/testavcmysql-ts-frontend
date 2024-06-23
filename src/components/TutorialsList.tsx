@@ -121,7 +121,7 @@ const TutorialsList: React.FC = () => {
                             </div>
 
                             <Link
-                                to={"/home/tutorials/" + currentTutorial.id}
+                                to={"/tutorials/" + currentTutorial.id}
                                 className="badge badge-warning"
                             >
                                 Edit
